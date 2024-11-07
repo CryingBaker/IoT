@@ -28,6 +28,7 @@ To create a smoke detection system using Arduino that activates a buzzer when sm
 ## Arduino Code
 
 Here’s a sample code that reads from the MQ-2 sensor and activates a buzzer when smoke is detected:
+```cpp
 // Define pin numbers
 const int mq2Pin = A0;      // Analog pin connected to MQ-2 sensor
 const int buzzerPin = 9;    // Digital pin connected to buzzer
@@ -59,7 +60,7 @@ void loop() {
 
     delay(1000); // Wait for 1 second before next reading
 }
-
+```
 ​
 Explanation of Code
 The code initializes serial communication and sets up pins for the buzzer and LED.

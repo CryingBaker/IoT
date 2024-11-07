@@ -21,6 +21,7 @@ To print temperature and humidity readings on the Serial Monitor using an approp
 You will need to install the **DHT sensor library** to interface with the sensor. You can do this via the Library Manager in the Arduino IDE by searching for "DHT sensor library" by Adafruit.
 
 Here is a sample code to read temperature and humidity from the DHT sensor and print it to the Serial Monitor:
+```cpp
 #include <DHT.h>
 
 // Define DHT sensor type and pin
@@ -60,7 +61,7 @@ void loop() {
     Serial.print(humidity);
     Serial.println(" %");
 }
-
+```
 ​
 Explanation of Code
 The code includes the DHT library, which provides functions for interacting with DHT sensors.

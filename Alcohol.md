@@ -28,6 +28,7 @@ To create an alcohol detection system using Arduino that activates a buzzer when
 ## Arduino Code
 
 Here’s a sample code that reads from the MQ-3 sensor and activates a buzzer when alcohol is detected:
+```cpp
 #define MQ3pin A0      // Analog pin connected to MQ-3 sensor
 #define buzzerPin 10   // Digital pin connected to buzzer
 #define ledPin 9       // Digital pin connected to LED
@@ -54,7 +55,7 @@ void loop() {
 
     delay(1000); // Wait for 1 second before next reading
 }
-
+```
 ​
 Explanation of Code
 The code initializes serial communication and sets up pins for the buzzer and LED.

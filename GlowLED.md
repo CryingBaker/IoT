@@ -55,23 +55,7 @@ void loop() {
     }
 }
 
-## Explanation of Code
-
-- The code initializes serial communication and sets up pins for both LEDs as outputs.
-- In `loop()`, it checks if there are any incoming serial commands.
-- Depending on the command received:
-    - `RedOn`: Turns on the Red LED and turns off the Green LED.
-    - `GreenOn`: Turns on the Green LED and turns off the Red LED.
-    - `Off`: Turns off both LEDs.
-
-### How to Use
-
-1. Upload this code to your NodeMCU using the Arduino IDE.
-2. Open the Serial Monitor (Ctrl + Shift + M) in the IDE.
-3. Set it to 115200 baud rate.
-4. You can type commands such as `RedOn`, `GreenOn`, or `Off` in the Serial Monitor to control the LEDs.
-
-This setup allows you to control two LEDs serially using a NodeMCU with simple commands sent through the Serial Monitor.
+```
 IVA
 
 Here are the top 5 potential questions and answers that could be asked in a viva covering the concepts from the code:

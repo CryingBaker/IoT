@@ -23,6 +23,7 @@ To design a traffic light system using Arduino, you can follow the steps below, 
 
 Arduino Code
 Here is a simple Arduino sketch that simulates a traffic light sequence:
+```cpp
 // Define pin numbers for LEDs
 const int redLED = 2;    // Red LED connected to pin 2
 const int yellowLED = 3; // Yellow LED connected to pin 3
@@ -58,6 +59,7 @@ void loop() {
     // Reset all lights off before repeating
     digitalWrite(yellowLED, LOW);
 }
+```
 
 ## Explanation of Code
 
